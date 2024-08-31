@@ -3,7 +3,7 @@ use serde::{Deserialize, Serialize};
 use std::collections::HashMap;
 use std::collections::HashSet;
 
-#[mockall::automock]
+#[cfg_attr(feature = "tests", mockall::automock)]
 pub trait Trait1 {
     fn fn1();
 
@@ -12,7 +12,7 @@ pub trait Trait1 {
     fn fn3(a: String) -> u16;
 }
 
-#[mockall::automock]
+#[cfg_attr(feature = "tests", mockall::automock)]
 pub trait Trait2 {
     fn fn1();
 
@@ -21,7 +21,7 @@ pub trait Trait2 {
     fn fn3(a: String) -> u16;
 }
 
-#[mockall::automock]
+#[cfg_attr(feature = "tests", mockall::automock)]
 pub trait Trait3 {
     fn fn1();
 
@@ -30,7 +30,7 @@ pub trait Trait3 {
     fn fn3(a: String) -> u16;
 }
 
-#[mockall::automock]
+#[cfg_attr(feature = "tests", mockall::automock)]
 pub trait Trait4 {
     fn fn1();
 
@@ -39,7 +39,7 @@ pub trait Trait4 {
     fn fn3(a: String) -> u16;
 }
 
-#[mockall::automock]
+#[cfg_attr(feature = "tests", mockall::automock)]
 pub trait Trait5 {
     fn fn1();
 
@@ -48,7 +48,7 @@ pub trait Trait5 {
     fn fn3(a: String) -> u32;
 }
 
-#[mockall::automock]
+#[cfg_attr(feature = "tests", mockall::automock)]
 pub trait Trait6 {
     fn fn1();
 
@@ -57,7 +57,8 @@ pub trait Trait6 {
     fn fn3(a: String) -> u64;
 }
 
-#[derive(Serialize, Deserialize, PartialEq, Eq, Debug, Default)]
+#[derive(Serialize, Default)]
+#[cfg_attr(feature = "tests", derive(Deserialize, PartialEq, Eq, Debug))]
 pub struct Struct1 {
     pub f1: u8,
     pub f2: String,
@@ -66,7 +67,8 @@ pub struct Struct1 {
     pub f5: Vec<String>,
 }
 
-#[derive(Serialize, Deserialize, PartialEq, Eq, Debug, Default)]
+#[derive(Serialize, Default)]
+#[cfg_attr(feature = "tests", derive(Deserialize, PartialEq, Eq, Debug))]
 pub struct Struct2 {
     pub f1: u8,
     pub f2: String,
@@ -75,7 +77,8 @@ pub struct Struct2 {
     pub f5: Vec<String>,
 }
 
-#[derive(Serialize, Deserialize, PartialEq, Eq, Debug, Default)]
+#[derive(Serialize, Default)]
+#[cfg_attr(feature = "tests", derive(Deserialize, PartialEq, Eq, Debug))]
 pub struct Struct3 {
     pub f1: u8,
     pub f2: String,
@@ -84,7 +87,8 @@ pub struct Struct3 {
     pub f5: Vec<String>,
 }
 
-#[derive(Serialize, Deserialize, PartialEq, Eq, Debug, Default)]
+#[derive(Serialize, Default)]
+#[cfg_attr(feature = "tests", derive(Deserialize, PartialEq, Eq, Debug))]
 pub struct Struct4 {
     pub f1: u8,
     pub f2: String,
@@ -93,7 +97,8 @@ pub struct Struct4 {
     pub f5: Vec<String>,
 }
 
-#[derive(Serialize, Deserialize, PartialEq, Eq, Debug, Default)]
+#[derive(Serialize, Default)]
+#[cfg_attr(feature = "tests", derive(Deserialize, PartialEq, Eq, Debug))]
 pub struct Struct5 {
     pub f1: u8,
     pub f2: String,
@@ -102,7 +107,8 @@ pub struct Struct5 {
     pub f5: Vec<String>,
 }
 
-#[derive(Serialize, Deserialize, PartialEq, Eq, Debug, Default)]
+#[derive(Serialize, Default)]
+#[cfg_attr(feature = "tests", derive(Deserialize, PartialEq, Eq, Debug))]
 pub struct Struct6 {
     pub f1: u8,
     pub f2: String,
@@ -111,7 +117,8 @@ pub struct Struct6 {
     pub f5: Vec<String>,
 }
 
-#[derive(Serialize, Deserialize, PartialEq, Eq, Debug, Default)]
+#[derive(Serialize, Default)]
+#[cfg_attr(feature = "tests", derive(Deserialize, PartialEq, Eq, Debug))]
 pub struct Struct7 {
     pub f1: u8,
     pub f2: String,
@@ -120,7 +127,8 @@ pub struct Struct7 {
     pub f5: Vec<String>,
 }
 
-#[derive(Serialize, Deserialize, PartialEq, Eq, Debug, Default)]
+#[derive(Serialize, Default)]
+#[cfg_attr(feature = "tests", derive(Deserialize, PartialEq, Eq, Debug))]
 pub struct Struct8 {
     pub f1: u8,
     pub f2: String,
@@ -129,7 +137,8 @@ pub struct Struct8 {
     pub f5: Vec<String>,
 }
 
-#[derive(Serialize, Deserialize, PartialEq, Eq, Debug, Default)]
+#[derive(Deserialize, Default)]
+#[cfg_attr(feature = "tests", derive(Serialize, PartialEq, Eq, Debug))]
 pub struct Struct9 {
     pub f1: u8,
     pub f2: String,
@@ -138,7 +147,8 @@ pub struct Struct9 {
     pub f5: Vec<String>,
 }
 
-#[derive(Serialize, Deserialize, PartialEq, Eq, Debug, Default)]
+#[derive(Deserialize, Default)]
+#[cfg_attr(feature = "tests", derive(Serialize, PartialEq, Eq, Debug))]
 pub struct Struct10 {
     pub f1: u8,
     pub f2: String,
@@ -147,7 +157,8 @@ pub struct Struct10 {
     pub f5: Vec<String>,
 }
 
-#[derive(Serialize, Deserialize, PartialEq, Eq, Debug, Default)]
+#[derive(Deserialize, Default)]
+#[cfg_attr(feature = "tests", derive(Serialize, PartialEq, Eq, Debug))]
 pub struct Struct11 {
     pub f1: u8,
     pub f2: String,
@@ -156,7 +167,8 @@ pub struct Struct11 {
     pub f5: Vec<String>,
 }
 
-#[derive(Serialize, Deserialize, PartialEq, Eq, Debug, Default)]
+#[derive(Deserialize, Default)]
+#[cfg_attr(feature = "tests", derive(Serialize, PartialEq, Eq, Debug))]
 pub struct Struct12 {
     pub f1: u8,
     pub f2: String,
@@ -165,7 +177,8 @@ pub struct Struct12 {
     pub f5: Vec<String>,
 }
 
-#[derive(Serialize, Deserialize, PartialEq, Eq, Debug, Default)]
+#[derive(Deserialize, Default)]
+#[cfg_attr(feature = "tests", derive(Serialize, PartialEq, Eq, Debug))]
 pub struct Struct13 {
     pub f1: u8,
     pub f2: String,

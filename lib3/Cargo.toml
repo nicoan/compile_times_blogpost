@@ -4,6 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-mockall = { workspace = true }
+mockall = { workspace = true, optional = true }
 reqwest = { workspace = true }
 serde =  { workspace = true }
+
+[features]
+tests = ["dep:mockall"]
