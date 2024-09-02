@@ -61,8 +61,6 @@ name = "bin1"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -70,8 +68,6 @@ name = "bin10"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -79,8 +75,6 @@ name = "bin11"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -88,8 +82,6 @@ name = "bin12"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -97,8 +89,6 @@ name = "bin13"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -106,8 +96,6 @@ name = "bin14"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -115,8 +103,6 @@ name = "bin15"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -124,8 +110,6 @@ name = "bin16"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -133,8 +117,6 @@ name = "bin17"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -142,8 +124,6 @@ name = "bin18"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -151,8 +131,6 @@ name = "bin19"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -160,8 +138,6 @@ name = "bin2"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -169,8 +145,6 @@ name = "bin20"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -178,8 +152,6 @@ name = "bin21"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -187,8 +159,6 @@ name = "bin22"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -196,8 +166,6 @@ name = "bin23"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -205,8 +173,6 @@ name = "bin24"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -214,8 +180,6 @@ name = "bin25"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -223,8 +187,6 @@ name = "bin26"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -232,8 +194,6 @@ name = "bin27"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -241,8 +201,6 @@ name = "bin28"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -250,8 +208,6 @@ name = "bin29"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -259,8 +215,6 @@ name = "bin3"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -268,8 +222,6 @@ name = "bin30"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -277,8 +229,6 @@ name = "bin31"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -286,8 +236,6 @@ name = "bin32"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -295,8 +243,6 @@ name = "bin33"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -304,8 +250,6 @@ name = "bin34"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -313,8 +257,6 @@ name = "bin35"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -322,8 +264,6 @@ name = "bin36"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -331,8 +271,6 @@ name = "bin37"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -340,8 +278,6 @@ name = "bin38"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -349,8 +285,6 @@ name = "bin39"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -358,8 +292,6 @@ name = "bin4"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -367,8 +299,6 @@ name = "bin40"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -376,8 +306,6 @@ name = "bin5"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -385,8 +313,6 @@ name = "bin6"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -394,8 +320,6 @@ name = "bin7"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -403,8 +327,6 @@ name = "bin8"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -412,8 +334,6 @@ name = "bin9"
 version = "0.1.0"
 dependencies = [
  "lib1",
- "lib2",
- "lib3",
 ]
 
 [[package]]
@@ -798,24 +718,6 @@ checksum = "bbd2bcb4c963f2ddae06a2efc7e9f3591312473c50c6685e1f298068316e66fe"
 
 [[package]]
 name = "lib1"
-version = "0.1.0"
-dependencies = [
- "mockall",
- "reqwest",
- "serde",
-]
-
-[[package]]
-name = "lib2"
-version = "0.1.0"
-dependencies = [
- "mockall",
- "reqwest",
- "serde",
-]
-
-[[package]]
-name = "lib3"
 version = "0.1.0"
 dependencies = [
  "mockall",
