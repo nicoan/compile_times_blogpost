@@ -5,5 +5,3 @@ edition = "2021"
 
 [dependencies]
 lib1 = { workspace = true }
-lib2 = { workspace = true }
-lib3 = { workspace = true }
