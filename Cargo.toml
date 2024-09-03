@@ -3,8 +3,6 @@ mockall = "0.12.1"
 reqwest = { version = "0.12.7", features = ["blocking"] }
 serde = { version = "1.0.204", features = ["serde_derive"] }
 lib1 = { path = "./lib1" }
-lib2 = { path = "./lib2" }
-lib3 = { path = "./lib3" }
 
 [workspace]
 members = ["bin*", "lib*"]
