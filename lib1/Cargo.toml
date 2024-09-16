@@ -10,3 +10,6 @@ serde =  { workspace = true }
 
 [features]
 tests = ["dep:mockall"]
+
+[lib]
+crate-type = ["dylib"]
